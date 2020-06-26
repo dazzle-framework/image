@@ -1,0 +1,33 @@
+{
+    "name": "dazzlesoftware/image",
+    "type": "library",
+    "description": "Dazzle Image Package",
+    "keywords": ["dazzle", "framework", "image"],
+    "homepage": "https://github.com/dazzle-framework/image",
+    "license": "GPL-3.0-or-later",
+    "require": {
+        "php": "^7.3.0",
+        "ext-gd": "*",
+        "psr/log": "~1.0"
+    },
+    "require-dev": {
+        "dazzlesoftware/dazzle-coding-standard": "^1.0",
+        "dazzlesoftware/test": "^1.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dazzle\\Image\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dazzle\\Image\\UnitTests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-2.0-dev": "2.0-dev"
+        }
+    }
+}
